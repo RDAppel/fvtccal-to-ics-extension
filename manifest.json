@@ -1,0 +1,15 @@
+{
+	"name": "Schedule to Calendar",
+	"version": "1.0",
+	"manifest_version": 3,
+	"action": {
+		"default_title": "Click to download schedule as a .ics calendar file"
+	},
+	"permissions": [
+		"activeTab",
+		"scripting"
+	],
+	"background": {
+		"service_worker": "app.js"
+	}
+}
